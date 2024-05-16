@@ -5,3 +5,4 @@ num = int(input('enter a number to calculate its square root: '))
 raiz = math.sqrt(num)
 
 print('the root is {:.2f}'.format(raiz))
+print(emoji.emojize('Hello world!:alien:'))
