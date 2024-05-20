@@ -1,17 +1,8 @@
-from math import pow, sqrt
+from math import hypot
 # TO DO
 print('lets calculate to hypotenuse of the right triangle')
-a = int(input('first side: '))
-b = int(input('second side: '))
-a1 = pow(a, 2)
-b1 = pow(a, 2)
-c = a1 + b1
-h = sqrt(c)
-
-print(h)
-
-
-
-
-
+a = float(input('first side: '))
+b = float(input('second side: '))
+h = hypot(a, b)
+print('the hypotenuse is {}'.format(h))
 
